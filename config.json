@@ -1,0 +1,9 @@
+{
+  "tokens": [],
+  "proxies": [],
+  "settings": {
+    "prefix": "+",
+    "allowed_channel_id": 0,
+    "log_channel_id": 0
+  }
+}
