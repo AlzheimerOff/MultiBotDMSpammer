@@ -328,7 +328,6 @@ async def start_bots():
 
     @primary_bot.command()
     async def react(ctx, emoji: str):
-        if ctx.author.id not in ALLOWED_ADMINS: return
         if not ctx.message.reference:
             return await ctx.send("Répond au message que tu veux faire réagir.")
         
